@@ -1,5 +1,5 @@
 def position_taken?(board, character)
-  if board[index_number] == "X" || "O"
+  if board[index_number] != "X" || "O"
   else
     board[index_number] == " " || "" || nil
   end
