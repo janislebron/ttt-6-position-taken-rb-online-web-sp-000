@@ -1,4 +1,4 @@
-def position_taken?(board, character)
+def position_taken?(board)
   if board == "X" || "O"
     "true"
   elsif board == "   "
